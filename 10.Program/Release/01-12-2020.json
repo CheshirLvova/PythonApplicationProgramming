@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 24.02,
+        "lat": 49.84
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 271.04,
+        "feels_like": 264.9,
+        "temp_min": 270.93,
+        "temp_max": 271.15,
+        "pressure": 1024,
+        "humidity": 79
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 5,
+        "deg": 140
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1606833462,
+    "sys": {
+        "type": 1,
+        "id": 8909,
+        "country": "UA",
+        "sunrise": 1606802433,
+        "sunset": 1606832758
+    },
+    "timezone": 7200,
+    "id": 702550,
+    "name": "Lviv",
+    "cod": 200
+}
