@@ -1,0 +1,20 @@
+Увага ! Деякі адреси можуть бути недійсні. Адреси залежать від постачальників даних.
+
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange
+
+http://resources.finance.ua/ua/public/currency-cash.xml
+
+http://bank-ua.com/export/currrate.xml
+
+http://news.liga.net/all/rss.xml
+
+https://hnrss.org/newest
+
+https://hnrss.org/frontpage
+
+http://zaxid.net/resources/xml/iUaRu.xml
+
+https://news.finance.ua/ua/rss    ??
+
+http://wz.lviv.ua/rss    ??
+
