@@ -1,0 +1,530 @@
+Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print value by key: temp_min:
+Value of key: temp_min is 289.82 on 15-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print max value by key: feels_like:
+Max value of key: feels_like is 290.13 on 15-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print value by key: humidity:
+Value of key: humidity is 55 on 15-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print dates with given value by key: main:Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print dates with value bigger then given by key: humidity:
+Value of key: humidity is 55 and is more than -350.0 on 15-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print value by key: temp:
+Value of key: temp is 290.87 on 15-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print value by key: temp:
+Value of key: temp is 290.87 on 15-05-2021
+Value of key: temp is 294.47 on 16-05-2021Function to gather data from all .json files started
+All data files have same structure:
+Main info:
+Type of entire document: dict
+Document has: 13 elements
+Type of every element: ['dict', 'list', 'str', 'dict', 'int', 'dict', 'dict', 'int', 'dict', 'int', 'int', 'str', 'int']:
+Type of 'main' element: dict
+Value of 'main':
+{'temp': 290.87, 'feels_like': 290.13, 'temp_min': 289.82, 'temp_max': 292.59, 'pressure': 1011, 'humidity': 55}
+Subelements of 'main':
+('temp', 290.87)
+('feels_like', 290.13)
+('temp_min', 289.82)
+('temp_max', 292.59)
+('pressure', 1011)
+('humidity', 55)
+
+All data gathered
+First data entry printed for example:
+{
+    "15-05-2021": {
+        "coord": {
+            "lon": 24.0232,
+            "lat": 49.8383
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 290.87,
+            "feels_like": 290.13,
+            "temp_min": 289.82,
+            "temp_max": 292.59,
+            "pressure": 1011,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3,
+            "deg": 290
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1621087108,
+        "sys": {
+            "type": 1,
+            "id": 8909,
+            "country": "UA",
+            "sunrise": 1621046317,
+            "sunset": 1621101725
+        },
+        "timezone": 10800,
+        "id": 702550,
+        "name": "Lviv",
+        "cod": 200
+    }
+}
+
+Print dates with value bigger then given by key: temp:
+Value of key: temp is 290.87 and is more than -350.0 on 15-05-2021
+Value of key: temp is 294.47 and is more than -350.0 on 16-05-2021
